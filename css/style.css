@@ -1,0 +1,22 @@
+body {
+    background-color:#ce3635;
+    color:#fff;
+}
+  
+.main-title { 
+    color:#fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-title a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
