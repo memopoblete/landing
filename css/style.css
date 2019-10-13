@@ -1,22 +1,36 @@
 body {
     background-color:#ce3635;
     color:#fff;
-}
-  
-.main-title { 
-    color:#fff;
-    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
-
-.main-title a {
+  
+.typewrite-title a {
     text-decoration: none;
     color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
 }
 
 .hero-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
 }
+
+.contact-wrapper {
+    text-align: center;
+}
+
+.contact-hero {
+    font-weight: 700;
+    font-size: .8rem;
+    margin: 0px;
+
+} 
+
+.contact-wrapper a {
+    text-decoration: none;
+    color: #fff;
+} 
